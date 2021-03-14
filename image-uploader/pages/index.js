@@ -4,6 +4,9 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <>
+    <div className="main">
+      It is the place where to work
+    </div>
     </>
   )
 }
