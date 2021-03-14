@@ -1,0 +1,23 @@
+{
+  "name": "Image-uploader",
+  "version": "1.0.0",
+  "description": "<!-- Please update value in the {}  -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamrulhasan12345/Image-uploader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kamrulhasan12345/Image-uploader/issues"
+  },
+  "homepage": "https://github.com/Kamrulhasan12345/Image-uploader#readme",
+  "dependencies": {
+    "next": "^10.0.8"
+  }
+}
