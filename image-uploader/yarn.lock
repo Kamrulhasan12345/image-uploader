@@ -512,13 +512,13 @@ data-uri-to-buffer@3.0.1:
   resolved "https://registry.yarnpkg.com/data-uri-to-buffer/-/data-uri-to-buffer-3.0.1.tgz#594b8973938c5bc2c33046535785341abc4f3636"
   integrity sha512-WboRycPNsVw3B3TL559F7kuBUM4d8CgMEvk6xEJlOp7OBPjt6G7z8WMWlD2rOFZLk6OYfFIUGsCOWzcQH9K2og==
 
-datauri@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/datauri/-/datauri-3.0.0.tgz#6196997e9a7bbbee81b60e8c8acb1a2c871e2349"
-  integrity sha512-NeDFuUPV1YCpCn8MUIcDk1QnuyenUHs7f4Q5P0n9FFA0neKFrfEH9esR+YMW95BplbYfdmjbs0Pl/ZGAaM2QHQ==
+datauri@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/datauri/-/datauri-4.1.0.tgz#19e6e4fadc38ff8cea724d8ff59dcaad832520e4"
+  integrity sha512-y17kh32+I82G+ED9MNWFkZiP/Cq/vO1hN9+tSZsT9C9qn3NrvcBnh7crSepg0AQPge1hXx2Ca44s1FRdv0gFWA==
   dependencies:
-    image-size "0.8.3"
-    mimer "1.1.0"
+    image-size "1.0.0"
+    mimer "^2.0.2"
 
 debug@2:
   version "2.6.9"
@@ -745,12 +745,12 @@ ieee754@^1.1.4:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-image-size@0.8.3:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.8.3.tgz#f0b568857e034f29baffd37013587f2c0cad8b46"
-  integrity sha512-SMtq1AJ+aqHB45c3FsB4ERK0UCiA2d3H1uq8s+8T0Pf8A3W4teyBQyaFaktH6xvZqh+npwlKU7i4fJo0r7TYTg==
+image-size@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/image-size/-/image-size-1.0.0.tgz#58b31fe4743b1cec0a0ac26f5c914d3c5b2f0750"
+  integrity sha512-JLJ6OwBfO1KcA+TvJT+v8gbE6iWbj24LyDNFgFEN0lzegn6cC6a/p3NIDaepMsJjQjlUWqIC7wJv8lBFxPNjcw==
   dependencies:
-    queue "6.0.1"
+    queue "6.0.2"
 
 inherits@2.0.1:
   version "2.0.1"
@@ -915,10 +915,10 @@ mime-types@~2.1.24:
   dependencies:
     mime-db "1.46.0"
 
-mimer@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/mimer/-/mimer-1.1.0.tgz#2cb67f7093998e772a0e62c090f77daa1b8a2dbe"
-  integrity sha512-y9dVfy2uiycQvDNiAYW6zp49ZhFlXDMr5wfdOiMbdzGM/0N5LNR6HTUn3un+WUQcM0koaw8FMTG1bt5EnHJdvQ==
+mimer@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/mimer/-/mimer-2.0.2.tgz#941da26070e80bb485aed8a1ef4a5a325cbbfa96"
+  integrity sha512-izxvjsB7Ur5HrTbPu6VKTrzxSMBFBqyZQc6dWlZNQ4/wAvf886fD4lrjtFd8IQ8/WmZKdxKjUtqFFNaj3hQ52g==
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
@@ -1263,10 +1263,10 @@ querystring@^0.2.0:
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.1.tgz#40d77615bb09d16902a85c3e38aa8b5ed761c2dd"
   integrity sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg==
 
-queue@6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/queue/-/queue-6.0.1.tgz#abd5a5b0376912f070a25729e0b6a7d565683791"
-  integrity sha512-AJBQabRCCNr9ANq8v77RJEv73DPbn55cdTb+Giq4X0AVnNVZvMHlYp7XlQiN+1npCZj1DuSmaA2hYVUUDgxFDg==
+queue@6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/queue/-/queue-6.0.2.tgz#b91525283e2315c7553d2efa18d83e76432fed65"
+  integrity sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA==
   dependencies:
     inherits "~2.0.3"
 
